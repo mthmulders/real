@@ -9,6 +9,11 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
+    <scm>
+        <connection>scm:git:https://github.com/mthmulders/real.git</connection>
+        <developerConnection>scm:git:git@github.com:mthmulders/real.git</developerConnection>
+    </scm>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
