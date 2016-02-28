@@ -9,6 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
+    <description>Real, the tournament management application</description>
+    <name>Real</name>
+
     <scm>
         <connection>scm:git:https://github.com/mthmulders/real.git</connection>
         <developerConnection>scm:git:git@github.com:mthmulders/real.git</developerConnection>
