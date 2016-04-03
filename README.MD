@@ -18,6 +18,3 @@ You can deploy this application to a variety of platforms. Some are described be
 
 ## Contributing
 t.b.d.
-
-
-failed to run command `/var/lib/openshift/570114b72d5271e651000145/app-root/runtime/repo/bin/': No such file or directory
