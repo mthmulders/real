@@ -1,16 +1,18 @@
 //
 // Define dependency versions
 //
-lazy val hikariCpVer = "2.4.5"
-lazy val playVer     = "2.5.1"
-lazy val slickVer    = "3.1.1"
+lazy val hikariCpVer      = "2.4.5"
+lazy val playVer          = "2.5.1"
+lazy val scalaTestPlusVer = "1.5.0"
+lazy val slickVer         = "3.1.1"
 
 //
 // Define dependencies
 //
-lazy val hikariCp     = "com.zaxxer"         %  "HikariCP"      % hikariCpVer
-lazy val slick        = "com.typesafe.slick" %% "slick"         % slickVer
-lazy val slickCodegen = "com.typesafe.slick" %% "slick-codegen" % slickVer
+lazy val hikariCp      = "com.zaxxer"              %  "HikariCP"           % hikariCpVer
+lazy val scalaTestPlus = "org.scalatestplus.play"  %% "scalatestplus-play" % scalaTestPlusVer
+lazy val slick         = "com.typesafe.slick"      %% "slick"              % slickVer
+lazy val slickCodegen  = "com.typesafe.slick"      %% "slick-codegen"      % slickVer
 
 
 lazy val root = (project in file("."))
@@ -21,6 +23,7 @@ lazy val root = (project in file("."))
       slick,
       slickCodegen,
       hikariCp,
+      scalaTestPlus % Test,
       specs2 % Test
     ),
     name := "real",
